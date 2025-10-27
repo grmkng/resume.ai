@@ -1,7 +1,7 @@
-echo "# resume.ai" >> README.md
+cd ai_resume_dashboard
 git init
-git add README.md
-git commit -m "first commit"
+git add .
+git commit -m "Initial commit: AI Resume Dashboard"
 git branch -M main
-git remote add origin https://github.com/grmkng/resume.ai.git
+git remote add origin https://github.com/<your-username>/ai-resume-matcher.git
 git push -u origin main
